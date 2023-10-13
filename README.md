@@ -1,13 +1,3 @@
 # quantspace
 
-### Risk Measure and Anomaly Detection
-
-### Portfolio Optimization
-
-### Network Analysis
-
-### Machine Learning
-
-- forecast benchmark
-- clustering
-- 
+quantspace is a library for quantitative finance with focus on research and education.
