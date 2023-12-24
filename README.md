@@ -32,7 +32,7 @@ To get started with **quantspace**, follow these simple steps:
 
 1. **Installation:**
    ```
-   pip install **quantspace**
+   pip install quantspace
    ```
 
 2. **Example Usage:**
