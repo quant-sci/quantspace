@@ -2,8 +2,6 @@
 <img src="logo.png" width="400">
 </h1>
 
----
-
 **quantspace** is a Python library designed specifically for quantitative finance, with a primary focus on supporting research and education in the field. 
 
 ### Main Areas 
