@@ -4,8 +4,6 @@
 
 **quantspace** is a Python library designed specifically for quantitative finance, with a primary focus on supporting research and education in the field. 
 
-### Main Areas 
-
 - Risk Management
 - Portfolio Optimization
 - Anomaly Detection
@@ -39,7 +37,7 @@ To get started with **quantspace**, follow these simple steps:
 
 2. **Example Usage:**
    ```python
-   import **quantspace** as qs
+   import quantspace as qs
 
    # Your code here
    ```
