@@ -38,7 +38,9 @@ To get started with **quantspace**, follow these simple steps:
    pip install quantspace
    ```
 
-2. **Example Usage (risk measure):**
+2. **Getting Started:**
+
+- **Risk measure:**
    ```python
    from quantspace.risk import summary_risk
 
@@ -46,7 +48,7 @@ To get started with **quantspace**, follow these simple steps:
    summary_risk(returns=returns, risk_free_rate=0.05)
    ```
 
-**Example Usage (portfolio optimization):**
+- **Portfolio optimization:**
    ```python
    from quantspace.utils.datasets import random_portfolio
    from quantspace.portfolio import MarkowitzFrontier
@@ -72,8 +74,6 @@ To get started with **quantspace**, follow these simple steps:
    ```
    <img src="resources/_examples/markowitz_frontier.png" alt="Markowitz" width="500"/>
 
-3. **Documentation:**
-   Refer to the official documentation for detailed information on the library's functionalities, API reference, and usage examples.
 
 ## Contributions
 
