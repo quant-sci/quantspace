@@ -38,13 +38,39 @@ To get started with **quantspace**, follow these simple steps:
    pip install quantspace
    ```
 
-2. **Example Usage:**
+2. **Example Usage (risk measure):**
    ```python
    from quantspace.risk import summary_risk
 
    returns = [0.065, 0.0265, -0.0593, -0.001, 0.0346]
    summary_risk(returns=returns, risk_free_rate=0.05)
    ```
+
+**Example Usage (portfolio optimization):**
+   ```python
+   from quantspace.utils.datasets import random_portfolio
+   from quantspace.portfolio import MarkowitzFrontier
+
+   import numpy as np
+   np.random.seed(1234)
+
+   n_assets = 5 # number of assets in portfolio
+   n_obs = 1000 # number of observations in data
+   return_vec = np.random.randn(n_assets, n_obs) # generate random returns for each asset
+
+   n_portfolios = 500 # number of portfolios to simulate
+   means, stds = np.column_stack([
+      random_portfolio(return_vec) 
+      for _ in range(n_portfolios)
+   ])
+
+   # instantiate MarkowitzFrontier class
+   m_frontier = MarkowitzFrontier(return_vec, stds, means)
+
+   # plot efficient frontier
+   m_frontier.plot_frontier()
+   ```
+   ![Markowitz Frontier](resources/_examples/markowitz_frontier.png)
 
 3. **Documentation:**
    Refer to the official documentation for detailed information on the library's functionalities, API reference, and usage examples.
