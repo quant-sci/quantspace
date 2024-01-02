@@ -2,6 +2,10 @@
 
 from ._metrics import (
     sharpe_ratio,
+    sortino_ratio,
+    value_at_risk,
+    conditional_value_at_risk,
+    beta
 )
 
 from ._tables import (
@@ -10,5 +14,9 @@ from ._tables import (
 
 __all__ = [
     'sharpe_ratio',
+    'sortino_ratio',
+    'value_at_risk',
+    'conditional_value_at_risk',
+    'beta',
     'summary_risk',
 ]

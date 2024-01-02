@@ -37,9 +37,10 @@ To get started with **quantspace**, follow these simple steps:
 
 2. **Example Usage:**
    ```python
-   import quantspace as qs
+   from quantspace.risk import summary_risk
 
-   # Your code here
+   returns = [0.065, 0.0265, -0.0593, -0.001, 0.0346]
+   summary_risk(returns=returns, risk_free_rate=0.05)
    ```
 
 3. **Documentation:**
