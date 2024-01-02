@@ -70,7 +70,7 @@ To get started with **quantspace**, follow these simple steps:
    # plot efficient frontier
    m_frontier.plot_frontier()
    ```
-   <img src="resources/_examples/markowitz_frontier.png" alt="Markowitz" width="300"/>
+   <img src="resources/_examples/markowitz_frontier.png" alt="Markowitz" width="500"/>
 
 3. **Documentation:**
    Refer to the official documentation for detailed information on the library's functionalities, API reference, and usage examples.
