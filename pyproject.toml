@@ -18,7 +18,9 @@ python = ">=3.8,<4.0.0"
 
 tqdm = {version=">=4.64.1",  optional = true}
 seaborn = {version=">=0.11.2",  optional = true}
+matplotlib = {version=">=3.7.2", optional=false}
 autograd = {version=">=1.6.2", optional=false}
+cvxopt = {version=">=1.2.2", optional=false}
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^5.0.4"
