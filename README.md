@@ -4,6 +4,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/quantspace)](https://pypi.org/project/quantspace/)
 [![GitHub](https://img.shields.io/github/license/quantspaceai/quantspace)](https://github.com/quantspaceai/quantspace/blob/master/LICENSE)
+[![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719)](https://quantspace.substack.com)
 
 **quantspace** is a Python library designed specifically for quantitative finance, with a primary focus on supporting research and education in the field. 
 
