@@ -4,6 +4,7 @@
 
 
 [![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719)](https://quantspace.substack.com)
+[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/quantspace-workspace/shared_invite/zt-29xg7t6qv-ATpdCPl1LWaqN84UrBJHiA)
 
 [![PyPI](https://img.shields.io/pypi/v/quantspace)](https://pypi.org/project/quantspace/)
 [![GitHub](https://img.shields.io/github/license/quantspaceai/quantspace)](https://github.com/quantspaceai/quantspace/blob/master/LICENSE)
